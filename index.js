@@ -1,6 +1,6 @@
 var readlineSync = require('readline-sync');
 const chalk = require('chalk');
-console.log("Answers: a b b a a c a b a a");
+//console.log("Answers: a b b a a c a b a a");
 var username= readlineSync.question(chalk.blue.bold('Please, Enter your name '));
 
 console.log(chalk.rgb(255,136,0).bold("welcome "+username+" This is a quiz on anime Naruto"));
